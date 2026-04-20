@@ -14,3 +14,30 @@ img {
 }
 
 /* your style definitions go here... */
+
+body {
+    background-color: rgb(32, 44, 57);
+}
+
+section {
+    background-color: rgb(194, 216, 185);
+}
+
+h1 {
+    background-color: rgb(142, 158, 136);
+    color: rgb(7, 7, 7);
+}
+
+h2 {
+    background-color: rgb(142, 158, 136);
+    color: rgb(7, 7, 7);
+}
+
+h3 {
+    /* background-color: rgb(142, 158, 136); */
+    color: rgb(7, 7, 7);
+}
+
+ul {
+    background-color: rgb(255, 212, 202);
+}
