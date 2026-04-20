@@ -1,0 +1,32 @@
+/* 
+    This is a stylesheet for the mariners page.
+    Author: Josh Archer
+    Date: 4/20/26
+*/
+
+body {
+    background-color: rgb(240, 231, 195);
+}
+
+img {
+    width: 400px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+
+/* Target the header 
+   (top of the page)
+*/
+h1 {
+    font-family: Arial; /* default font */
+    color: rgb(1, 80, 79);
+    text-decoration: underline;
+}
+
+/* this applies to all paragraphs */
+p {
+    color: rgb(97, 28, 28);
+    border-left: 1.5px solid rgb(97, 28, 28);
+    padding-left: 10px;
+}
