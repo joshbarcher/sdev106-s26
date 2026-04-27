@@ -1,0 +1,57 @@
+
+h1, h2 {
+    border-bottom: 1px solid rgb(0, 74, 139);
+    margin: 10px;
+}
+
+h1, h2, p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* applies to everything! */
+* {
+    color: rgb(82, 178, 154);
+}
+
+header {
+    border: 1px dashed rgb(255, 255, 185);
+}
+
+aside {
+    border: 1px dashed rgb(255, 193, 185);
+    margin: 5px;
+}
+
+header p {
+    font-style: italic;
+}
+
+/* paragraph directly in a section */
+/* section > p {
+    color: rgb(255, 255, 192);
+} */
+
+body > article, body > aside {
+    border: 1px solid gray;
+    background-color: rgb(50, 50, 50);
+    margin: 10px;
+    padding: 20px;
+}
+
+/* target element with id first-time */
+#first-time {
+    text-transform: lowercase;
+}
+
+#coach {
+    text-transform: uppercase;
+}
+
+/* target elements with class emphasize */
+.emphasize {
+    background-color: rgb(83, 9, 46);
+}
+
+.most-important {
+    font-weight: bold;
+}

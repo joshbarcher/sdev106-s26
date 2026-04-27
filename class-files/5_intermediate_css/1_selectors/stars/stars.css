@@ -1,0 +1,24 @@
+li:first-child {
+    color: cornflowerblue;
+}
+
+h1:first-child {
+    color: darkgreen;
+}
+
+li:last-child {
+    text-decoration: underline rgb(169, 169, 230);
+}
+
+h1:last-child {
+    color: orange;
+}
+
+ul:last-child {
+    text-transform: uppercase;
+}
+
+/* selects the first child of this type */
+ul:first-of-type {
+    font-weight: bold;
+}

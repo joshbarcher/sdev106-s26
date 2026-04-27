@@ -10,3 +10,13 @@ img {
     border-radius: 5px;
     width: 150px;
 }
+
+img#bird ~ img {
+    border-width: 3px;
+    border-color: rgb(238, 150, 28);
+}
+
+#fluffy + img {
+    border-width: 3px;
+    border-color: aquamarine;
+}
