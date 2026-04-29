@@ -1,4 +1,4 @@
-li:first-child {
+/* li:first-child {
     color: cornflowerblue;
 }
 
@@ -16,9 +16,34 @@ h1:last-child {
 
 ul:last-child {
     text-transform: uppercase;
-}
+} */
 
 /* selects the first child of this type */
-ul:first-of-type {
+/* ul:first-of-type {
     font-weight: bold;
+} */
+
+/* list items that are the 2nd child */
+/* li:nth-child(3) {
+    text-decoration: line-through;
+}
+
+li:nth-child(even) {
+    background-color: rgb(99, 56, 99);
+} */
+
+h1:first-child {
+    color: rgb(61, 123, 61);
+}
+
+li:first-child {
+    text-decoration: underline;
+}
+
+#male-actors li:first-child, #male-actors li:last-child {
+    color: rgb(255, 229, 182);
+}
+
+#female-actors li:nth-child(even) {
+    background-color: rgb(84, 114, 129);;
 }

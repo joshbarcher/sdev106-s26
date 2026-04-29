@@ -9,6 +9,6 @@ p#showers:hover {
 }
 
 p#storms:hover {
-    background-color: #222222;
-    color: azure;
+    background-color: #565656;
+    color: rgb(113, 163, 163);
 }

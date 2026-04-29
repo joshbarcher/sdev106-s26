@@ -1,17 +1,5 @@
-
-a:link {
-    color: #f54281;
-}
-
-a:visited {
-    color: #972e4c;
-}
-
-a:hover {
-    color: #ff72b9;
-}
-
-a:active {
-    color: #ff2440;
-}
-
+/* LVAH styling for our links */
+a:link    { color: rgb(98, 158, 98); }
+a:visited { color: rgb(79, 105, 79); }
+a:hover   { color: rgb(142, 230, 142); }
+a:active  { color: rgb(189, 204, 127); }
