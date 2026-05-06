@@ -1,0 +1,24 @@
+html {
+    background-color: rgb(29, 29, 29);
+}
+
+body {
+    background-color: rgb(75, 75, 75);
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    color: rgb(193, 255, 198);
+    padding: 20px;
+}
+
+p {
+    margin: 10px;
+    background-color: rgb(85, 85, 85);
+    display: inline-block;
+    width: 270px;
+}
+
+/* fixed layout */
+body {
+    width: 900px;
+    margin: 0 auto;
+}

@@ -1,0 +1,16 @@
+body {
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+p {
+    font-size: 1.1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 8px 0;
+}
