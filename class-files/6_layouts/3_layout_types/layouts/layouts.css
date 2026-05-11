@@ -18,7 +18,13 @@ p {
 }
 
 /* fixed layout */
-body {
+/* body {
     width: 900px;
     margin: 0 auto;
+} */
+
+/* fluid layout */
+body {
+    width: calc(100% - 82px);
+    margin: 20px;
 }
