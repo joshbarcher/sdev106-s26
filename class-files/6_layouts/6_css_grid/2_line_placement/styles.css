@@ -22,11 +22,14 @@ article, header, footer, aside {
 }
 
 .container {
-
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
 }
 
 header {
-
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
 }
 
 article#jewelry {

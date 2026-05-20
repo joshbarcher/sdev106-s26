@@ -11,7 +11,7 @@ body {
 }
 
 img {
-    width: 200px;
+    width: 100%;
     float: left;
     margin-right: 10px;
     margin-bottom: 10px;
@@ -29,50 +29,28 @@ article, header, footer, aside {
     border-radius: 5px;
     background-color: #242a27;
     color: white;
-    margin: 10px;
+    /* margin: 10px; */
     padding: 10px;
 }
 
 .container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 0.5fr;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: "head head head asde"
+                         "clck clck clck asde"
+                         ".    furn book asde"
+                         ".    furn book asde"
+                         "jewl jewl jewl asde"
+                         "foot foot foot asde"
+                         "clth clth clth clth";
     gap: 8px;
 }
 
-header {
-    grid-column: 1/4;
-    grid-row: 1/2;
-}
-
-article#jewelry {
-    grid-column: 1/4;
-    grid-row: 2; /* same as grid-row: 2/3 */
-}
-
-article#clocks {
-    grid-column: 4/5;
-    grid-row: 2;
-}
-
-article#clothes {
-    grid-column: 2/4;
-}
-
-article#furniture {
-    grid-column: 1/2; /* 1st column */
-    grid-row: 3/5; /* spans rows 3 + 4 */
-}
-
-article#books {
-    grid-column: 4/5; /* 4th column */
-    grid-row: 3/5; /* spans rows 3 + 4 */
-}
-
-footer {
-    grid-column: 2/4;
-}
-
-aside {
-    grid-column: 4/5;
-    grid-row: 1/2;
-}
+header { grid-area: head; }
+article#jewelry { grid-area: jewl; }
+article#clocks { grid-area: clck; }
+article#clothes { grid-area: clth; }
+article#furniture { grid-area: furn; }
+article#books { grid-area: book; }
+footer { grid-area: foot; }
+aside { grid-area: asde; }

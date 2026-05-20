@@ -1,3 +1,29 @@
+html {
+    background-color: rgb(38, 38, 57);
+}
+
 body {
-    background-color: #b2c5eb;
+    background-color: #697794;
+    width: 1000px;
+    margin: auto;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    padding: 20px;
+}
+
+#album {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: center;
+
+    img {
+        width: 150px;
+        border: 1px solid white;
+        border-radius: 10px;
+    }
 }

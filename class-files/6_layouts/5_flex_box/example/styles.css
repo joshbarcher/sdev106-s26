@@ -1,6 +1,29 @@
+html {
+    background-color: rgb(45, 45, 45);
+}
+
+main {
+    width: 1200px;
+    height: 750px;
+    margin: auto;
+    background-color: rgb(148, 136, 120);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 12px;
+
+    /* align content */
+    justify-content: center; /* main axis */
+    align-content: center;   /* cross axis */
+    align-items: center;     /* items in the main axis */
+
+    padding: 20px;
+}
+
 div h1 {
     border-radius: 25px 25px 0 0;
     padding: 10px;
+    font-size: 1.2rem;
 }
 
 div h1, div p {
@@ -9,9 +32,10 @@ div h1, div p {
 }
 
 div {
+    border: 1px solid white;
+    background-color: rgb(125, 116, 104);
     border-radius: 25px;
-    margin: 20px;
-    width: 300px;
+    width: 200px;
 }
 
 #div1 h1 {
