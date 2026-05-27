@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.1rem;
+    background-color: #36281B;
+    color: #EDF4FC;
+    margin: 20px;
+    padding: 20px;
+}
+
+h1 {
+    color: #D9C2A7;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: underline #D9C2A7;;
+    margin: 20px 0;
+}
+
+h2 {
+    color: #D9C2A7;
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+img {
+    width: 500px;
+    border: 1px solid #99948E;
+    border-radius: 40px;
+}
+
+/* these styles will only apply on phone in portrait mode */
+@media screen and (max-width: 480px) {
+    body {
+        margin: 0;
+        padding: 5px;
+    }
+
+    img {
+        width: calc(100% - 8px);
+        border-radius: 10px;
+        margin: 4px;
+    }
+
+    #pics {
+        display: grid;
+        gap: 10px;
+    }
+}
+
+/* apply styles for phone landscape + tablet portrait */
+@media screen and (max-width: 950px) {
+    h1, h2 {
+        background-color: #4f4c49;
+        border-top: 1px solid #36281B;
+        border-bottom: 1px solid #36281B;
+        padding: 6px;
+    }
+
+    #main-pic {
+        float: left;
+        margin: 0 10px 10px 0;
+        width: 400px;
+        border-radius: 10px;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    #pics {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+}

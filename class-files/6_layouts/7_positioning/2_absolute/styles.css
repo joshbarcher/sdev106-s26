@@ -5,15 +5,21 @@ html {
 body {
     width: 600px;
     margin: 0 auto;
-    background-color: #8ccdf1;
+    background-color: #3c5e70;
     padding: 20px;
 }
 
+/* the parent element of img is article, and should NOT be static */
 article {
-
+    position: relative;
 }
 
 img {
     width: 150px;
+
+    position: absolute;
+
+    left: -200px;
+    bottom: 0;
 }
 

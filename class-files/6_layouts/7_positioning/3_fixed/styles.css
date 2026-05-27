@@ -31,7 +31,11 @@ aside {
     background-color: #ba6b6b;
     color: white;
     padding: 6px;
-    width: 150px;
+    width: 250px;
+
+    position: fixed;
+    bottom: 20px;
+    right: calc(50% - 125px);
 }
 
 aside p {

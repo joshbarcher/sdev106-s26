@@ -1,6 +1,15 @@
+body {
+    color: black;
+}
+
 nav {
     background-color: black;
     color: white;
+
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
 }
 
 nav > ul {
@@ -31,29 +40,15 @@ nav ul > li > a:hover {
 
 main {
     width: 560px;
-    margin: 0 auto;
+    margin: 50px auto;
     padding: 15px;
-    background-color: #f2b8cc;
+    background-color: #b79e8e;
     border: 2px solid black;
 }
 
 main p {
     font-size: 1.2em;
     margin: 15px 0;
-}
-
-/* move the first paragraph beneath
-   the navigation bar
- */
-main p:first-child {
-
-}
-
-/* move the last paragraph above
-   the footer
- */
-main p:last-child {
-
 }
 
 footer {
@@ -64,6 +59,11 @@ footer {
     box-sizing: border-box;
     padding: 15px;
     font-size: 1.1em;
+
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
 }
 
 footer a {

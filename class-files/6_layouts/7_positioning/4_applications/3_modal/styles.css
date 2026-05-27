@@ -1,3 +1,6 @@
+body {
+    color: black;
+}
 
 nav {
     background-color: black;
@@ -37,9 +40,10 @@ nav > ul > li > a:hover,
 main {
     width: 560px;
     margin: 0 auto;
-    padding: 15px;
-    background-color: #f2b8cc;
+    background-color: #bb9c8b;
     border: 2px solid black;
+
+    padding: 75px 15px;
 }
 
 main p {
@@ -94,7 +98,13 @@ footer a {
 /* 3_modal styles */
 
 #modal-cover {
-
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(82, 82, 82, 0.768);
 }
 
 #modal {
@@ -105,6 +115,7 @@ footer a {
     padding: 20px;
     width: 200px;
     height: 120px;
+    margin: 250px auto;
 }
 
 #modal h1 {
