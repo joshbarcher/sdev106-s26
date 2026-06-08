@@ -1,0 +1,76 @@
+body {
+    width: 500px;
+}
+
+form {
+    margin: 20px;
+}
+
+.widget {
+    margin: 10px 0;
+}
+
+label {
+    display: block;
+}
+
+input{
+    display: block;
+    width: calc(100% - 10px);
+}
+
+select {
+    display: block;
+    width: calc(100% - 4px);
+}
+
+#top {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    border: 1px dashed rgb(151, 151, 151);
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#notes-container {
+    width: calc(500px - 50px);
+}
+
+#notes {
+    width: 100%;
+    height: 100px;
+}
+
+.rb {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    justify-content: flex-start;
+}
+
+.rb input, .rb label {
+    width: auto;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        width: auto;
+    }
+
+    #notes-container {
+        width: calc(100% - 10px);
+    }
+
+    .widget {
+        margin: 0;
+    }
+
+    form {
+        margin: 0;
+    }
+
+    #top {
+        grid-template-columns: 1fr;
+    }
+}

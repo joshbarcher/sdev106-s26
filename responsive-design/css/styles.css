@@ -49,7 +49,7 @@ img {
 }
 
 /* apply styles for phone landscape + tablet portrait */
-@media screen and (max-width: 950px) {
+@media screen and (min-width: 480px) and (max-width: 950px) {
     h1, h2 {
         background-color: #4f4c49;
         border-top: 1px solid #36281B;
@@ -72,5 +72,23 @@ img {
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 10px;
+    }
+}
+
+/* apply styles for tablet landscape or desktop */
+@media screen and (min-width: 950px) {
+    #main-pic {
+        float: left;
+        margin: 0 10px 10px 0;
+        width: 400px;
+        border-radius: 10px;
+    }
+}
+
+/* for desktops, use a fixed (paper) layout */
+@media screen and (min-width: 1200px) {
+    body {
+        width: 1200px;
+        margin: auto;
     }
 }
