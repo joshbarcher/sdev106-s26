@@ -1,0 +1,17 @@
+body {
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+#clock {
+    color: rgb(126, 217, 248);
+    font-size: 1.3rem;
+}
+
+#date {
+    color: rgb(190, 241, 190);
+    font-size: 1.15rem;
+}
